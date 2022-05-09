@@ -1,2 +1,2 @@
-# Projetos_HTML-CSS
-Primeiros projetos usando HTML5 e CSS3
+# Projetos HTML&CSS
+Primeiros projetos usando HTML5 e CSS3.
