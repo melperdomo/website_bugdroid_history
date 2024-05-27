@@ -26,7 +26,7 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-image: url(../imagens/dark_candy.jpg);
     font-family: var(--fonte-padrao); 
 }
 
