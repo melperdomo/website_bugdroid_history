@@ -9,12 +9,12 @@
 }
 
 :root {
-    --cor0: #c5ebd6;
-    --cor1: #83E1AD;
-    --cor2: #3DDC84;
-    --cor3: #2FA866;
-    --cor4: #1A5C37;
-    --cor5: #063d1E;
+    --cor0: #EDFEA1;
+    --cor1: #B1D45C;
+    --cor2: #91B843;
+    --cor3: #628916;
+    --cor4: #3A5E07;
+    --cor5: #1D3803;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
@@ -39,14 +39,14 @@ header {
     text-align: center;
     color: var(--cor4);
     padding: 40px;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 header h1 {
     font-family: var(--fonte-destaque);
     color: white;
     padding-bottom: 20px;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
     font-weight: normal;
 }
@@ -54,7 +54,7 @@ header h1 {
 header > p {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-size: 1em;
     max-width: 500px;
     margin: auto;
     margin-bottom: 10px;
