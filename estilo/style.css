@@ -9,12 +9,12 @@
 }
 
 :root {
-    --cor0: #c5ebd6;
-    --cor1: #83E1AD;
-    --cor2: #3DDC84;
-    --cor3: #2FA866;
-    --cor4: #1A5C37;
-    --cor5: #063d1E;
+    --cor0: #EDFEA1;
+    --cor1: #B1D45C;
+    --cor2: #91B843;
+    --cor3: #628916;
+    --cor4: #3A5E07;
+    --cor5: #1D3803;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
@@ -30,23 +30,19 @@ body {
     font-family: var(--fonte-padrao); 
 }
 
-a.externo::after {
-    content: '\00A0\1F517';
-}
-
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     text-align: center;
-    color: var(--cor4);
+    color: var(--cor3);
     padding: 40px;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 header h1 {
     font-family: var(--fonte-destaque);
     color: white;
     padding-bottom: 20px;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
     font-weight: normal;
 }
@@ -54,7 +50,7 @@ header h1 {
 header > p {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-size: 1em;
     max-width: 500px;
     margin: auto;
     margin-bottom: 10px;
@@ -64,14 +60,14 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.301);
 }
 
 nav > a {
     text-decoration: none;
-    color: var(--cor1);
+    color: var(--cor0);
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
@@ -97,7 +93,7 @@ main {
 
 main h1 {
     font-family: var(--fonte-android);
-    color: var(--cor5);
+    color: var(--cor4);
     font-weight: normal;
     font-size: 1.8em;
 }
@@ -135,9 +131,8 @@ main img.pequena {
 }
 
 main a {
-    text-decoration: none;
-    background-color: var(--cor0);
-    color: var(--cor5);
+    text-decoration: underline;
+    color: var(--cor3);
     padding: 2px 6px;
     font-weight: bold;
 }
