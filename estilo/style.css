@@ -9,12 +9,12 @@
 }
 
 :root {
-    --cor0: #EDFEA1;
-    --cor1: #B1D45C;
-    --cor2: #91B843;
-    --cor3: #628916;
-    --cor4: #3A5E07;
-    --cor5: #1D3803;
+    --cor0: #FFF5E0;
+    --cor1: #F5DAD2;
+    --cor2: #E2F4C5;
+    --cor3: #A8CD9F;
+    --cor4: #58A399;
+    --cor5: #496989;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
@@ -26,15 +26,15 @@
 }
 
 body {
-    background-image: url(../imagens/dark_candy.jpg);
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao); 
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
     text-align: center;
-    color: var(--cor3);
-    padding: 40px;
+    color: var(--cor0);
+    padding: 20px;
     min-height: 100px;
 }
 
@@ -42,7 +42,7 @@ header h1 {
     font-family: var(--fonte-destaque);
     color: white;
     padding-bottom: 20px;
-    font-size: 2em;
+    font-size: 4em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
     font-weight: normal;
 }
@@ -50,7 +50,7 @@ header h1 {
 header > p {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 1em;
+    font-size: 1.5em;
     max-width: 500px;
     margin: auto;
     margin-bottom: 10px;
@@ -60,7 +60,7 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor4);
+    background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.301);
 }
@@ -93,15 +93,15 @@ main {
 
 main h1 {
     font-family: var(--fonte-android);
-    color: var(--cor4);
+    color: var(--cor5);
     font-weight: normal;
     font-size: 1.8em;
 }
 
 main h2 {
     font-family: var(--fonte-android);
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    color: var(--cor5);
     font-size: 1.3em;
     text-indent: 8px;
     font-weight: normal;
@@ -116,7 +116,7 @@ main p {
 }
 
 main strong {
-    color: var(--cor4);    
+    color: var(--cor5);    
     font-weight: bold;
 }
 
@@ -131,8 +131,8 @@ main img.pequena {
 }
 
 main a {
-    text-decoration: underline;
-    color: var(--cor3);
+    text-decoration: none;
+    color: var(--cor4);
     padding: 2px 6px;
     font-weight: bold;
 }
@@ -159,7 +159,7 @@ div.video > iframe {
 }
 
 aside {
-    background-color: var(--cor1);
+    background-color: var(--cor0);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.274);
@@ -174,9 +174,86 @@ aside h3 {
 }
 
 aside > ul {
-    list-style-type: '\2714\00A0';
+    list-style-type: none;
     list-style-position: inside;
     columns: 2;
+    padding: 0;
+    text-indent: 30px;
+}
+
+aside .cupcake::before {
+    content: "🧁";
+    margin-right: 8px;
+}
+
+aside .donut::before {
+    content: "🍩";
+    margin-right: 8px;
+}
+
+aside .eclair::before {
+    content: "🍰";
+    margin-right: 8px;
+}
+
+aside .froyo::before {
+    content: "🍦";
+    margin-right: 12px;
+}
+
+aside .gingerbread::before {
+    content: "🍪";
+    margin-right: 8px;
+}
+
+aside .honeycomb::before {
+    content: "🍯";
+    margin-right: 8px;
+}
+
+aside .ice-cream::before {
+    content: "🍨";
+    margin-right: 8px;
+}
+
+aside .jelly-bean::before {
+    content: "🍬";
+    margin-right: 8px;
+}
+
+aside .kitkat::before {
+    content: "🍫";
+    margin-right: 13px;
+}
+
+aside .lollipop::before {
+    content: "🍭";
+    margin-right: 8px;
+}
+
+aside .marshmallow::before {
+    content: "🍡";
+    margin-right: 8px;
+}
+
+aside .nougat::before {
+    content: "🍫";
+    margin-right: 13px;
+}
+
+aside .oreo::before {
+    content: "🍪";
+    margin-right: 8px;
+}
+
+aside .pie::before {
+    content: "🥧";
+    margin-right: 8px;
+}
+
+aside ul li {
+    display: list-item;
+    margin-bottom: 5px;
 }
 
 footer {
