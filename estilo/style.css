@@ -181,72 +181,72 @@ aside > ul {
     text-indent: 30px;
 }
 
-aside .cupcake::before {
+aside .extra__cupcake::before {
     content: "🧁";
     margin-right: 8px;
 }
 
-aside .donut::before {
+aside .extra__donut::before {
     content: "🍩";
     margin-right: 8px;
 }
 
-aside .eclair::before {
+aside .extra__eclair::before {
     content: "🍰";
     margin-right: 8px;
 }
 
-aside .froyo::before {
+aside .extra__froyo::before {
     content: "🍦";
     margin-right: 12px;
 }
 
-aside .gingerbread::before {
+aside .extra__gingerbread::before {
     content: "🍪";
     margin-right: 8px;
 }
 
-aside .honeycomb::before {
+aside .extra__honeycomb::before {
     content: "🍯";
     margin-right: 8px;
 }
 
-aside .ice-cream::before {
+aside .extra__ice-cream::before {
     content: "🍨";
     margin-right: 8px;
 }
 
-aside .jelly-bean::before {
+aside .extra__jelly-bean::before {
     content: "🍬";
     margin-right: 8px;
 }
 
-aside .kitkat::before {
+aside .extra__kitkat::before {
     content: "🍫";
     margin-right: 13px;
 }
 
-aside .lollipop::before {
+aside .extra__lollipop::before {
     content: "🍭";
     margin-right: 8px;
 }
 
-aside .marshmallow::before {
+aside .extra__marshmallow::before {
     content: "🍡";
     margin-right: 8px;
 }
 
-aside .nougat::before {
+aside .extra__nougat::before {
     content: "🍫";
     margin-right: 13px;
 }
 
-aside .oreo::before {
+aside .extra__oreo::before {
     content: "🍪";
     margin-right: 8px;
 }
 
-aside .pie::before {
+aside .extra__pie::before {
     content: "🥧";
     margin-right: 8px;
 }
