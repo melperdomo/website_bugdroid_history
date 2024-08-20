@@ -1,18 +1,24 @@
-### Oiê! Eu sou a Mel, desenvolvedora de front-end e copywriter.
+### Oiê! Eu sou a Mel, desenvolvedora de front-end em formação.
 Esse site está cheio de curiosidades sobre o Bugdroid, o mascote do Android. 
 
 Desenvolvi esse projeto, no **Módulo 2 do Curso de HTML5 e CSS3** do [Gustavo Guanabara](https://github.com/gustavoguanabara).
 
-**Foi o meu primeiro projeto em HTML5 e CSS3, mas já contém:**
-- Header personalizado, com `hover`
-- Pseudoclasses
-- Variáveis em CSS
+Com ele eu aprendi: 
+- Conceitos básicos
+- Preparação do ambiente
+- Semântica da HTML5
+- Textos
+- Títulos
+- Ligações
+- Multimídia
+- Estilos
+
+Além de: 
+- Fundamentos do design
+- Elementos CSS
+- Modelo de caixas
+- Wireframe
 - Responsividade
-- Listas
-- Emojis
-- Links
-- Imagens
-- E +
 
 👉 Você consegue ver como ficou, clicando no link:
 
